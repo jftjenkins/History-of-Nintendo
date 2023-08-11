@@ -55,6 +55,15 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: purple;
+#social-media {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 150%;
 }
