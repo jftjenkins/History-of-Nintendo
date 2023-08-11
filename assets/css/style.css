@@ -7,3 +7,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+header {
+    background-color: #FDD901;
+}
+
+/* Main Content */
+main {
+    background-color: green;
+}
+
+/* Footer */
+footer {
+    background-color: purple;
+}
