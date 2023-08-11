@@ -1,2 +1,9 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Handjet:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Default style overide */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
