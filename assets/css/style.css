@@ -20,11 +20,12 @@ body {
 /* Header */
 header {
     background-color: #FDD901;
+    padding: 0 1rem;
 }
 
 #logo {
     font-family: 'Handjet', cursive;
-    font-size: 250%;
+    font-size: 230%;
 }
 
 /* Main Content */
