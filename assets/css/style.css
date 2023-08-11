@@ -21,11 +21,22 @@ body {
 header {
     background-color: #FDD901;
     padding: 0 1rem;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
 }
 
 #logo {
     font-family: 'DM Serif Display', serif;
     font-size: 160%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    list-style-type: none;
 }
 
 /* Main Content */
