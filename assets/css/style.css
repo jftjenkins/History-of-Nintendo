@@ -22,9 +22,15 @@ header {
     background-color: #FDD901;
 }
 
+#logo {
+    font-family: 'Handjet', cursive;
+    font-size: 250%;
+}
+
 /* Main Content */
 main {
     background-color: green;
+    flex: 1 0 auto;
 }
 
 /* Footer */
