@@ -29,11 +29,11 @@ header {
     position: fixed;
     z-index: 90;
     width: 100%;
+    text-align: center;
 }
 
 #logo {
     font-family: 'DM Serif Display', serif;
-    text-align: center;
 }
 
 header a {
@@ -45,7 +45,7 @@ header a {
     letter-spacing: 1px;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    justify-content: space-evenly;
 }
 
 /* Main Content */
