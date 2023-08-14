@@ -30,6 +30,7 @@ header {
     z-index: 90;
     width: 100%;
     text-align: center;
+    display: flex;
 }
 
 #logo {
@@ -52,6 +53,7 @@ header a {
 main {
     background-color: green;
     flex: 1 0 auto;
+    margin-top: 128px;
 }
 
 /* Footer */
