@@ -30,7 +30,6 @@ header {
     z-index: 90;
     width: 100%;
     text-align: center;
-    display: flex;
 }
 
 #logo {
