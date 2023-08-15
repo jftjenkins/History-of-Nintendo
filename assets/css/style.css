@@ -50,7 +50,7 @@ header a {
 
 /* Main Content */
 main {
-    background-color: green;
+    background-color: #FFD06A;
     flex: 1 0 auto;
     margin-top: 128px;
 }
