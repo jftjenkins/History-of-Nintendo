@@ -55,6 +55,15 @@ main {
     margin-top: 128px;
 }
 
+/* Gallery */
+#images img {
+    width: 100%;
+}
+
+#images {
+    line-height: 0;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
