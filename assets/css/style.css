@@ -64,6 +64,11 @@ main {
     line-height: 0;
 }
 
+/* Timeline */
+.period > h2 {
+    
+}
+
 /* Footer */
 #social-media {
     text-align: center;
