@@ -65,7 +65,6 @@ main {
 }
 
 /* Timeline */
-.period>h2 {}
 
 /* Footer */
 #social-media {
@@ -83,11 +82,15 @@ main {
 
 /* Media query */
 
-/* Header for between 340-460px */
-
+/* Header for more than 360px */
+@media screen and (min-width: 362px) {
+    main {
+        margin-top: 64px;
+    }
+}
 
 /* Navigation bar for below 420px */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 362px) {
     .hidden {
         display: none;
     }
