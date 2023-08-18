@@ -24,7 +24,7 @@ h1 {
 
 /* Header */
 header {
-    background-color: #FDD901;
+    background-color: #FB625D;
     padding: 0 1rem;
     position: fixed;
     z-index: 90;
@@ -38,14 +38,16 @@ header {
 
 header a {
     text-decoration: none;
+    color: inherit;
 }
 
 #nav-bar {
     list-style-type: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 120%;
 }
 
 /* Main Content */
@@ -82,15 +84,22 @@ main {
 
 /* Media query */
 
-/* Header for more than 360px */
+/* Header for more than 362px */
 @media screen and (min-width: 362px) {
     main {
         margin-top: 64px;
     }
 }
 
+/* Header for 362-375px*/
+@media screen and (min-width: 362px) and (max-width: 375px) {
+    main {
+        margin-top: 69px;
+    }
+}
+
 /* Navigation bar for below 420px */
-@media screen and (max-width: 362px) {
+@media screen and (max-width: 420px) {
     .hidden {
         display: none;
     }
