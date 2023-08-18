@@ -22,6 +22,10 @@ h1 {
     color: black;
 }
 
+.hide {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #FB625D;
@@ -67,6 +71,9 @@ main {
 }
 
 /* Timeline */
+
+/* Newsletter Sign-up */
+
 
 /* Footer */
 #social-media {
