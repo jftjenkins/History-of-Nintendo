@@ -9,12 +9,17 @@
 }
 
 /* General Styles */
+html {
+    height: 100%;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: black;
     font-family: 'IBM Plex Sans', sans-serif;
+    height: 100%;
 }
 
 h1 {
@@ -73,41 +78,48 @@ main {
 /* Timeline */
 
 /* Newsletter Sign-up */
+#newsletter {
+    background-image: url("../images/shutterstock_1056459407.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10%;
+    flex-grow: 1;
+    height: 100%;
 
-
-/* Footer */
-#social-media {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-media i {
-    font-size: 150%;
-}
-
-/* Media query */
-
-/* Header for more than 362px */
-@media screen and (min-width: 362px) {
-    main {
-        margin-top: 64px;
+    /* Footer */
+    #social-media {
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
     }
-}
 
-/* Header for 362-375px*/
-@media screen and (min-width: 362px) and (max-width: 375px) {
-    main {
-        margin-top: 69px;
+    #social-media i {
+        font-size: 150%;
     }
-}
 
-/* Navigation bar for below 420px */
-@media screen and (max-width: 420px) {
-    .hidden {
-        display: none;
+    /* Media query */
+
+    /* Header for more than 362px */
+    @media screen and (min-width: 362px) {
+        main {
+            margin-top: 64px;
+        }
     }
-}
+
+    /* Header for 362-375px*/
+    @media screen and (min-width: 362px) and (max-width: 375px) {
+        main {
+            margin-top: 69px;
+        }
+    }
+
+    /* Navigation bar for below 420px */
+    @media screen and (max-width: 420px) {
+        .hidden {
+            display: none;
+        }
+    }
