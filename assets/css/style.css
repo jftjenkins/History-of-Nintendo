@@ -76,6 +76,9 @@ main {
 }
 
 /* Timeline */
+hr.line {
+    border-top: 5px solid;
+}
 
 /* Newsletter Sign-up */
 #newsletter {
