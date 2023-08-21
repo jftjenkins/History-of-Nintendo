@@ -34,7 +34,6 @@ h1 {
 /* Header */
 header {
     background-color: #FB625D;
-    padding: 0 1.5rem;
     position: fixed;
     z-index: 90;
     width: 100%;
@@ -84,10 +83,6 @@ hr.line {
 .period-title {
     padding: 0.5rem 0;
 }
-
-.year {}
-
-.event {}
 
 .description {
     line-height: 1.5em;
