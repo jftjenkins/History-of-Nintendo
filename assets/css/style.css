@@ -143,3 +143,11 @@ hr.line {
         display: none;
     }
 }
+
+/* Large and lanscape phones 576px< */
+@media screen and (min-width: 576px) {
+    #images {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
