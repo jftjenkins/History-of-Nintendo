@@ -91,6 +91,22 @@ hr.line {
     height: 100%;
 }
 
+#newsletter-form {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#newsletter-form>h2 {
+    margin-bottom: 10px;
+}
+
+.text-box {
+    background: transparent;
+    height: 20px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
