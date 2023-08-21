@@ -34,7 +34,7 @@ h1 {
 /* Header */
 header {
     background-color: #FB625D;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     position: fixed;
     z-index: 90;
     width: 100%;
@@ -78,6 +78,19 @@ main {
 /* Timeline */
 hr.line {
     border-top: 5px solid;
+    margin: 0.5rem 0;
+}
+
+.period-title {
+    padding: 0.5rem 0;
+}
+
+.year {}
+
+.event {}
+
+.description {
+    line-height: 1.5em;
 }
 
 /* Newsletter Sign-up */
@@ -122,7 +135,7 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
 }
 
