@@ -108,6 +108,15 @@ hr.line {
 }
 
 /* Footer */
+footer {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FB625D;
+}
+
 #social-media {
     text-align: center;
     padding: 20px;
@@ -149,5 +158,12 @@ hr.line {
     #images {
         column-count: 2;
         column-gap: 0;
+    }
+}
+
+/* Large devices 992px< */
+@media screen and (min-width: 992px) {
+    #images {
+        column-count: 3;
     }
 }
