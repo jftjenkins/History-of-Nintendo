@@ -77,7 +77,7 @@ main {
 /* Timeline */
 hr.line {
     border-top: 5px solid;
-    margin: 0.5rem 0;
+    margin-top: 0.5rem;
 }
 
 .period-title {
