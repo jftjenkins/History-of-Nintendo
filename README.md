@@ -32,4 +32,17 @@ History of Nintendo has been designed for researchers and those interested in se
 
 - __Timeline__
 
-  - 
+  - The timeline is split into 3 different periods: "Early Nintendo", "Retro Nintendo", and "'Modern' Nintendo"
+  - I chose these periods by splitting up the timeline by Nintendo's pre-games console era (Early Nintendo), when Nintendo first began creating game consoles (Retro Nintendo), and then when they became much more 'mainstream' ('Modern' Nintendo)
+  - This will allow users to quickly locate any information they need. For example, if a user is only interested in Nintendo's histroy related to consoles, they can skip all of the "Early Nintendo" section and jump straight to the "Retro Nintendo" section.
+  - The dates in the "Early Nintendo" section are usually simply years as they discuss more general events in the company's history. However, once "Retro Nintendo" is reached, exact dates are used when possible as so much happens so quickly during this era. This will make the timeline more accessable to users as they will hopefully not be overwhelmed by the information and will be able to locate what they need.
+  - The timeline also features a few hyperlinks to more information about some of the more obscure moments in Nintendo's early history so users can find more information if they are not sure what is being discussed.
+
+- __Newsletter__
+
+  - This page allows users to signup for a newsletter related to the History of Nintendo so they can stay updated about anything that is happening. Users have to fill in their name and email. They also have to check a box agreeing to receive emails from History of Nintendo.
+
+- __Features Left to Implement__
+
+  - In the Gallery, on larger screens when the images are put in columns, they are no longer in chronological order like on the smaller screen. A feature that could be implemented is finding someway to layout the images so that even on larger screens they are in some type on chronological order.
+  - The Gallery and the Timeline could be merged together so that the images go along with events related to them
