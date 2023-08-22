@@ -63,6 +63,7 @@ main {
     background-color: #f5c1ae;
     flex: 1 0 auto;
     margin-top: 108px;
+    padding-top: 5px;
 }
 
 /* Gallery */
@@ -166,14 +167,18 @@ footer {
 /* Header for more than 330px */
 @media screen and (min-width: 330px) {
     main {
-        margin-top: 64px;
+        margin-top: 74px;
+    }
+
+    #logo {
+        padding-bottom: 10px;
     }
 }
 
 /* Header for 362-375px*/
 @media screen and (min-width: 362px) and (max-width: 375px) {
     main {
-        margin-top: 69px;
+        margin-top: 75px;
     }
 }
 
