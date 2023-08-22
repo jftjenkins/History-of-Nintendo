@@ -100,7 +100,9 @@ hr.line {
 }
 
 #newsletter-form {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 20px;
 }
 
 #newsletter-form>h2 {
@@ -109,10 +111,21 @@ hr.line {
 
 .text-box {
     background: transparent;
+    color: #ffffff;
     height: 20px;
+    width: 100%;
     margin: 10px 0;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
     padding: 5px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.form-button {
+    margin-top: 10px;
 }
 
 /* Footer */
