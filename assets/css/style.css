@@ -124,8 +124,15 @@ hr.line {
     font-weight: bold;
 }
 
-.form-button {
+#form-button {
     margin-top: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+.container {
+    font-size: 100%;
+    font-weight: 600;
 }
 
 /* Footer */
