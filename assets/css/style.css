@@ -191,14 +191,26 @@ footer {
 
 /* Large and lanscape phones 576px< */
 @media screen and (min-width: 576px) {
+    /* Gallery */
     #images {
         column-count: 2;
         column-gap: 0;
     }
 }
 
+/* Tablets and up 768px< */
+@media screen and (min-width: 768px) {
+    /* Newsletter */
+    #newsletter-form {
+        max-width: fit-content;
+        left: 10%;
+        top: 150px;
+    }
+}
+
 /* Large devices 992px< */
 @media screen and (min-width: 992px) {
+    /* Gallery */
     #images {
         column-count: 3;
     }
