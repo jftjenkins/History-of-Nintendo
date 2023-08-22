@@ -103,6 +103,9 @@ hr.line {
     background-color: rgba(0, 0, 0, 0.7);
     color: #ffffff;
     padding: 20px;
+    position: absolute;
+    right: 0;
+    width: 100%;
 }
 
 #newsletter-form>h2 {
