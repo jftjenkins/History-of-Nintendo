@@ -66,6 +66,10 @@ main {
     padding-top: 5px;
 }
 
+#intro {
+    padding-top: 15px;
+}
+
 /* Gallery */
 #images img {
     width: 100%;
