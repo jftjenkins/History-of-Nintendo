@@ -41,13 +41,13 @@ header {
     text-align: center;
 }
 
-#logo {
-    font-family: 'DM Serif Display', serif;
-}
-
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#logo {
+    font-family: 'DM Serif Display', serif;
 }
 
 #nav-bar {
@@ -97,6 +97,7 @@ hr.line {
 
 #timeline {
     padding: 0 5px;
+    margin-bottom: 70px;
 }
 
 /* Newsletter Sign-up */
