@@ -15,7 +15,7 @@ History of Nintendo has been designed for researchers and those interested in se
 
 - __Introduction__
 
-  - The introduction text provides the user with information about what the page is about and who it is for. 
+  - The introduction text provides the user with information about what the page is about and who it is for.
   - It acts as a hook to bring users in who may be interested in the information provided within the page.
 
 - __Gallery__
