@@ -9,6 +9,7 @@
 }
 
 /* General Styles */
+/* Fixes background issue on Newsletter page */
 html {
     height: 100%;
 }
@@ -56,6 +57,7 @@ header a {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 120%;
+    padding-bottom: 5px;
 }
 
 /* Main Content */
@@ -67,7 +69,7 @@ main {
 }
 
 #intro {
-    padding-top: 15px;
+    padding: 15px 5px 0 5px;
 }
 
 /* Gallery */
@@ -91,6 +93,10 @@ hr.line {
 
 .description {
     line-height: 1.5em;
+}
+
+#timeline {
+    padding: 0 5px;
 }
 
 /* Newsletter Sign-up */
@@ -195,6 +201,7 @@ footer {
 
 /* Large and lanscape phones 576px< */
 @media screen and (min-width: 576px) {
+
     /* Gallery */
     #images {
         column-count: 2;
@@ -204,6 +211,7 @@ footer {
 
 /* Tablets and up 768px< */
 @media screen and (min-width: 768px) {
+
     /* Newsletter */
     #newsletter-form {
         max-width: fit-content;
@@ -214,6 +222,7 @@ footer {
 
 /* Large devices 992px< */
 @media screen and (min-width: 992px) {
+
     /* Gallery */
     #images {
         column-count: 3;
