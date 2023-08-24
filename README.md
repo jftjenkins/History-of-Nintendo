@@ -2,7 +2,7 @@
 
 History of Nintendo has been designed for researchers and those interested in seeing a succint breakdown of the history of the video game company Nintendo. It will be useful as it strikes a balance between being easily accessable, and having all the key dates related to the history of the company. Most websites either contain a lot of information making it difficult to find key dates related to the company, or can be vague, missing out events or glossing over key moments. This website strives to meet a middle ground between these two elements.
 
-Live Website url: https://jftjenkins.github.io/Portfolio-1/newsletter.html
+[Live link](https://jftjenkins.github.io/Portfolio-1/index.html)
 
 ![Responsive Example](readme_media/Responsive.png)
 
@@ -62,3 +62,15 @@ Live Website url: https://jftjenkins.github.io/Portfolio-1/newsletter.html
 
   - In the Gallery, on larger screens when the images are put in columns, they are no longer in chronological order like on the smaller screen. A feature that could be implemented is finding someway to layout the images so that even on larger screens they are in some type on chronological order.
   - The Gallery and the Timeline could be merged together so that the images go along with events related to them
+
+
+## Testing
+
+I have tested my website by using the Responsive mode on inspection and testing the website at different resolutions. I also used https://ui.dev/amiresponsive to allow me to fiew what the website would look like on multiple different devices/screen types at once.
+
+I have made my website responsive in a few different ways. Firstly, the text in the Navigation Bar becomes hidden on smaller screens so that the Header does not become too cluttered. In the Gallery on the home page, the images go from 1 column on smaller screens, to 2 columns on medium sized screens, to using 3 columns on larger screens. This is so the images do not take unneccesary space.
+
+### Validator Testing
+
+- HTML
+  - No errors were given when used on official [W3C Validator]()
