@@ -67,6 +67,7 @@ History of Nintendo has been designed for researchers and those interested in se
 ## Testing
 
 I have tested my website by using the Responsive mode on inspection and testing the website at different resolutions. I also used https://ui.dev/amiresponsive to allow me to see what the website would look like on multiple different devices/screen types at once.
+I used the [Adobe Color Accessability Tool](https://color.adobe.com/create/color-contrast-analyzer) to make sure my text was always at a suitable contract ratio.
 
 I used the Lighthouse feature on Google Chrome to test the page for both Desktop and Mobile. The only issue that came up was with the performance on the Home Page. I initially thought this was due to the size of the images on the page, so compressed them all. However, the performance was still low. 
 I now believe it is due to the column count as, when tested on mobile where there is only 1 column, the performance works fine. To potentially fix this in the future, I could put more details about the images and there placement when put into columns so the website is not trying to sort them out everytime the page is booted up.
@@ -82,3 +83,28 @@ I have made my website responsive in a few different ways. Firstly, the text in 
 ### Unfixed Bugs
 
 There is currently an issue with the gallery when it has 2 or more columns in that there is a gap at the bottom of the page and the images are not flush with the footer. There is currently no way to fix this without going through each image individually and assigning them a specific height/width, which could lead to some images distorting or stretching.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://jftjenkins.github.io/Portfolio-1/index.html
+
+## Credits
+
+### Content
+
+- For my research relating to the Timeline, I used the [Official Nintendo History](https://www.nintendo.co.uk/Hardware/Nintendo-History/Nintendo-History-625945.html) and the Wikipedia page on the [History of Nintendo](https://en.wikipedia.org/wiki/History_of_Nintendo)
+- I built on some of the code from the [LoveRunning project](https://github.com/jftjenkins/love-running.git) for the Newsletter page
+- The icons used in the Nav Bar, Footer, and the Newsletter Signup Form were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos on the homepage and newsletter page were taken from these open source sites:
+  - https://unsplash.com/
+  - https://www.pexels.com/
+  - https://pixabay.com/
+  - https://www.shutterstock.com/
