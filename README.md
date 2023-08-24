@@ -66,11 +66,19 @@ History of Nintendo has been designed for researchers and those interested in se
 
 ## Testing
 
-I have tested my website by using the Responsive mode on inspection and testing the website at different resolutions. I also used https://ui.dev/amiresponsive to allow me to fiew what the website would look like on multiple different devices/screen types at once.
+I have tested my website by using the Responsive mode on inspection and testing the website at different resolutions. I also used https://ui.dev/amiresponsive to allow me to see what the website would look like on multiple different devices/screen types at once.
+
+I used the Lighthouse feature on Google Chrome to test the page for both Desktop and Mobile. The only issue that came up was with the performance on the Home Page. I initially thought this was due to the size of the images on the page, so compressed them all. However, the performance was still low. 
+I now believe it is due to the column count as, when tested on mobile where there is only 1 column, the performance works fine. To potentially fix this in the future, I could put more details about the images and there placement when put into columns so the website is not trying to sort them out everytime the page is booted up.
 
 I have made my website responsive in a few different ways. Firstly, the text in the Navigation Bar becomes hidden on smaller screens so that the Header does not become too cluttered. In the Gallery on the home page, the images go from 1 column on smaller screens, to 2 columns on medium sized screens, to using 3 columns on larger screens. This is so the images do not take unneccesary space.
 
 ### Validator Testing
 
 - HTML
-  - No errors were given when used on official [W3C Validator]()
+  - No errors were given when used on official [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjftjenkins.github.io%2FPortfolio-1%2F)
+  - No errors were given when used on official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjftjenkins.github.io%2FPortfolio-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Unfixed Bugs
+
+There is currently an issue with the gallery when it has 2 or more columns in that there is a gap at the bottom of the page and the images are not flush with the footer. There is currently no way to fix this without going through each image individually and assigning them a specific height/width, which could lead to some images distorting or stretching.
